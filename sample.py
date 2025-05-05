@@ -8,5 +8,5 @@ st.sidebar.number_input("Enter your Mobile Number","Type here ...")
 st.sidebar.radio("Select your Gender",["Male","Female","Others"])
 if st.button("Submit"):
     name=s.title()
-    st.subheader("Hello, "name" !")
+    st.write("Thank you for yor registration")
     st.success("Your details submited successfully")
