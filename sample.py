@@ -6,7 +6,7 @@ if st.sidebar.button("Submit"):
     st.sidebar.success("Your email verified")
 st.text_input("Enter your name ","Type here ...")
 st.date_input("Enter your DOB ")
-st.number_input("Enter your Mobile Number","Type here ...")
+st.text_input("Enter your Mobile Number","Type here ...")
 st.radio("Select your Gender",["Male","Female","Others"])
 if st.button("Submit"):
     st.write("Thank you for yor registration")
